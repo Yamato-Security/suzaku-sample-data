@@ -1,0 +1,98 @@
+[
+    {
+        "eventVersion": "1.09",
+        "userIdentity": {
+            "type": "AssumedRole",
+            "principalId": "AROA****************:User",
+            "arn": "arn:aws:sts::111111111111:assumed-role/AWSReservedSSO_AdministratorAccess_2276cacebc31d3eb/AdanAlvarez",
+            "accountId": "111111111111",
+            "accessKeyId": "AKIA****************",
+            "sessionContext": {
+                "sessionIssuer": {
+                    "type": "Role",
+                    "principalId": "AROA****************:User",
+                    "arn": "arn:aws:iam::111111111111:role/aws-reserved/sso.amazonaws.com/ca-isob-northwest-1r/AWSReservedSSO_AdministratorAccess_2276cacebc31d3eb",
+                    "accountId": "111111111111",
+                    "userName": "AWSReservedSSO_AdministratorAccess_2276cacebc31d3eb"
+                },
+                "attributes": {
+                    "creationDate": "2025-05-24T14:45:18Z",
+                    "mfaAuthenticated": "false"
+                }
+            }
+        },
+        "eventTime": "2025-05-24T14:51:14Z",
+        "eventSource": "sso-directory.amazonaws.com",
+        "eventName": "CreateUser",
+        "awsRegion": "ca-isob-northwest-1r",
+        "sourceIPAddress": "0.0.0.0",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/0.0.0.0 Safari/537.36",
+        "requestParameters": {
+            "identityStoreId": "d-9a670c783a",
+            "passwordMode": "EMAIL",
+            "active": true,
+            "userAttributes": {
+                "emails": {
+                    "complexListValue": [
+                        {
+                            "type": {},
+                            "value": {},
+                            "primary": {}
+                        }
+                    ]
+                },
+                "displayName": {},
+                "name": {
+                    "complexValue": {
+                        "givenName": {},
+                        "familyName": {}
+                    }
+                }
+            }
+        },
+        "responseElements": {
+            "user": {
+                "userId": "01cb45c0-c071-70a1-0a3a-e417bf7fd8ff",
+                "userAttributes": {
+                    "emails": {
+                        "complexListValue": [
+                            {
+                                "verificationStatus": {},
+                                "type": {},
+                                "value": {},
+                                "primary": {}
+                            }
+                        ]
+                    },
+                    "displayName": {},
+                    "name": {
+                        "complexValue": {
+                            "givenName": {},
+                            "familyName": {}
+                        }
+                    }
+                },
+                "active": true,
+                "meta": {
+                    "createdAt": "May 24, 2025, 2:51:14\u202fPM",
+                    "updatedAt": "May 24, 2025, 2:51:14\u202fPM",
+                    "createdBy": "AROAB9I5DF1ER8C796KS6:AdanAlvarez",
+                    "updatedBy": "AROAB9I5DF1ER8C796KS6:AdanAlvarez"
+                }
+            }
+        },
+        "requestID": "12274569-1eba-4ae2-a783-3f4ffa1f5122",
+        "eventID": "8d1d432b-6647-431b-88a7-2da2c2042516",
+        "readOnly": false,
+        "eventType": "AwsApiCall",
+        "managementEvent": true,
+        "recipientAccountId": "111111111111",
+        "eventCategory": "Management",
+        "tlsDetails": {
+            "tlsVersion": "TLSv1.3",
+            "cipherSuite": "TLS_AES_128_GCM_SHA256",
+            "clientProvidedHostHeader": "up.sso.ca-isob-northwest-1r.amazonaws.com"
+        },
+        "sessionCredentialFromConsole": "true"
+    }
+]
